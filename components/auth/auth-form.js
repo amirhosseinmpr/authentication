@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { signIn } from 'next-auth/client';
+import { signIn } from 'next-auth/react';
 
 import classes from './auth-form.module.css';
 
@@ -41,7 +41,7 @@ function AuthForm() {
         password: enteredPassword,
       });
       if (!result.error) {
-        //set some auth state
+        //setg
       }
     } else {
       try {
