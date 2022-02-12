@@ -33,7 +33,6 @@ async function handler(req, res) {
     client.close();
     return;
   }
-  ///////////////
 
   const hashedPassword = await hashPassword(password);
 
