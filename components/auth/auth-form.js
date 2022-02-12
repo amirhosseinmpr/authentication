@@ -30,6 +30,7 @@ function AuthForm() {
   }
   async function submitHandler(event) {
     event.preventDefault();
+
     const enteredEmail = emailInputRef.current.value;
     const enteredPassword = passwordInputRef.current.value;
     //optional : Add validation
